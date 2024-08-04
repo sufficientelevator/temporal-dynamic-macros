@@ -26,8 +26,8 @@ Layer keys are filtered out, only the resulting keycode will be stored.
  you can't add a delay at the end of a macro without another key following it. If you'd like to end with a delay for a loop and not have any following key before the start of the macro, you'll need to enter a KC_NO
  */
 
-#include "features/temporal_dynamic_macro.h"
-#include "../custom_keycodes.h"
+#include "temporal_dynamic_macro.h"
+#include "custom_keycodes.h"
 #include "rgblight.h"
 #define RGBLIGHT_LED_COUNT 19
 #if !defined(DEFERRED_EXEC_ENABLE)
